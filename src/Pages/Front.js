@@ -23,8 +23,8 @@ function Front() {
       <h1>Hi, Try Hack Me!</h1>
       <p id='login-text'>Login</p>
       <center><form onSubmit={submit} className='container'>
-        <input placeholder='Enter Username' type="text" name='username'></input>
-        <input placeholder='Enter Password' type="password" name='password'></input>
+        <input placeholder='Enter Username' className="a" type="text" name='username'></input>
+        <input placeholder='Enter Password' className="b" type="password" name='password'></input>
         <button>Click To Submit</button>
       </form></center>
     </div>
