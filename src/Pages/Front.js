@@ -9,7 +9,7 @@ function Front() {
 
     var {username,password}=document.forms[0];
 
-    if(password.value=="peaches"){
+    if(password.value=="cookie"){
       window.location.href="/welcome";
     
     } else{
