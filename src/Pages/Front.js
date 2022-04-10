@@ -13,7 +13,9 @@ function Front() {
       window.location.href="/welcome";
     
     } else{
-      document.getElementById('login-text').innerHTML="Try Again"
+      document.getElementById('login-text').innerHTML="Try Again";
+      document.getElementById('q').innerHTML="";
+      document.getElementById('w').innerHTML="";
     }
 
   }
@@ -23,8 +25,8 @@ function Front() {
       <h1>Hi, Try Hack Me!</h1>
       <p id='login-text'>Login</p>
       <center><form onSubmit={submit} className='container'>
-        <input placeholder='Enter Username' className="a" type="text" name='username'></input>
-        <input placeholder='Enter Password' className="b" type="password" name='password'></input>
+        <input placeholder='Enter Username' className="a" id="q" type="text" name='username'></input>
+        <input placeholder='Enter Password' className="b" id="w" type="password" name='password'></input>
         <button>Click To Submit</button>
       </form></center>
     </div>
