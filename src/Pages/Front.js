@@ -9,7 +9,7 @@ function Front() {
 
     var {username,password}=document.forms[0];
 
-    if(password.value=="www.tricom.net"){
+    if(password.value=="peaches"){
       window.location.href="/welcome";
     
     } else{
